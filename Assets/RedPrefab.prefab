@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3766254414439112536}
   - component: {fileID: 3766254414439112537}
   - component: {fileID: 3766254414439112538}
+  - component: {fileID: -4633267664799551442}
   m_Layer: 0
   m_Name: RedPrefab
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3766254414439112536
 MeshFilter:
@@ -97,3 +98,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-4633267664799551442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523420566492372746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2761fba9107a9dc4d88f60c71772bf69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 3766254414439112537}
+  i: 3
